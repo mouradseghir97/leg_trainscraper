@@ -72,6 +72,6 @@ jobs:
           app-name: 'legtrainscraper'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A06914A79DEF4EC29085C65D8277CBD7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_01EBFE18493B4F49AD9CC2E575AD0CF1 }}
           sku: 'flexconsumption'
         
